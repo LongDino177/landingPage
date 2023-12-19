@@ -1,0 +1,134 @@
+/* reset Css */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.Container {
+  display: flex;
+  top: 938px;
+  height: 100vh;
+}
+
+/* Css Nav */
+.nav {
+  width: 150px;
+  color: #ffff;
+  background-color: black;
+}
+.nav_link {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.75px;
+}
+.nav_link_item {
+  padding-top: 20px;
+  padding-left: 8px;
+  border-bottom: 1px solid white;
+  height: 44px;
+}
+
+/* Section */
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.img_logo {
+  max-width: 310px;
+  height: 122px;
+}
+
+/* CSS content 1 */
+.content_one {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.content_one_detail {
+  background-color: #efefef;
+  height: 210px;
+  width: 1400px;
+  text-align: center;
+}
+
+.detail_header {
+  font-size: 18px;
+  line-height: 21.09px;
+  font-weight: 700;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.detail_content {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  padding-left: 210px;
+  padding-right: 210px;
+}
+
+
+/* css content_2 */
+.content_two {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.content_two_detail {
+    width: 1400px;
+    display: flex;
+    justify-content: space-between
+}
+
+.detail_two_content {
+    width: 470px;
+    height: 252px;
+}
+
+.detail_two_header {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+}
